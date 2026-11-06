@@ -1,0 +1,135 @@
+body{
+    background-color: #AA5E7A;
+    padding: 20px;
+}
+
+.navbar{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    gap: 20px;
+    padding: 5px 10px;
+    align-items:center;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav-links{
+    display: flex;
+    background-color: white;
+    list-style: none;
+    gap: 30px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.about{
+    padding: 20px auto;
+}
+
+h2{
+    color: #FEFAF3;
+    display: flex;
+    justify-content:center;
+}
+
+.para{
+    display: flex;
+    padding: 25px 30px;
+    background-color:#F2DACE;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.my-skill{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(2,200px);
+    justify-content: center;
+}
+
+.items{
+    background-color: #F2DACE;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.items:hover {
+    background-color:antiquewhite;
+    color: black;
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+.skills{
+    margin: 20px;
+    justify-content: center;
+}
+
+.project{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 300px;
+    justify-content: center;
+}
+
+li{
+    color:#9c2020;
+}
+.pro{
+    list-style: none;
+    background-color: #F2DACE;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.pro:hover{
+    background-color:rgb(248, 211, 211);
+    color: black;
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+.table{
+    list-style: none;
+    background-color: #F2DACE;
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.contact{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 300px;
+    justify-content: center;
+}
+
+.last{
+    list-style: none;
+    background-color: #F2DACE;
+    text-align: center;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
